@@ -11,7 +11,7 @@ public class UserController {
 	@Autowired
 	private UserService userService;
 	
-	@RequestMapping("/getCount")
+	@RequestMapping("/getCount.do")
 	public int getCount() {
 		return userService.queryAll().size();
 	}
