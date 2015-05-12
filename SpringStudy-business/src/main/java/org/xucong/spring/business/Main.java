@@ -15,6 +15,7 @@ public class Main {
 		System.out.println(service.dao);
 		UserDao dao = ctx1.getBean(UserDao.class);
 		System.out.println(dao);
+		dao.addUser("xc");
 		List<User> list = service.queryAll();
 		System.out.println(list.size());
 	}
