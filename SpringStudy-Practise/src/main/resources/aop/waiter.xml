@@ -21,9 +21,9 @@
     <bean id="greetingAfter" class="org.xucong.spring.practise.aop.GreetingBeforeAdvice"></bean>
     <bean id="targetWaiter" class="org.xucong.spring.practise.aop.NaiveWaiter"></bean>
     <bean id="waiter" class="org.springframework.aop.framework.ProxyFactoryBean"
-        p:proxyInterfaces="org.xucong.spring.practise.Waiter"
+        p:proxyInterfaces="org.xucong.spring.practise.aop.Waiter"
         p:target-ref="targetWaiter"
-        p:interceptorNames="greetingBefore"
+        p:interceptorNames="greetingBefore">
     </bean>   
 
 </beans>
