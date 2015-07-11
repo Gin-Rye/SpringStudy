@@ -5,7 +5,7 @@ import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
-import com.xucong.springstudy.domain.base.BaseEntity;
+import com.xucong.springstudy.base.domain.BaseEntity;
 
 @Entity
 @Table(name = "tb_user_group")

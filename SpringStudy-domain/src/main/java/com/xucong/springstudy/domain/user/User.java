@@ -7,7 +7,7 @@ import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
 import javax.persistence.Table;
 
-import com.xucong.springstudy.domain.base.BaseEntity;
+import com.xucong.springstudy.base.domain.BaseEntity;
 
 @Entity
 @Table(name = "tb_user")

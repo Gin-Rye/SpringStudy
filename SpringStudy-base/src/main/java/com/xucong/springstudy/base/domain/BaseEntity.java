@@ -1,4 +1,4 @@
-package com.xucong.springstudy.domain.base;
+package com.xucong.springstudy.base.domain;
 
 import java.util.Date;
 
