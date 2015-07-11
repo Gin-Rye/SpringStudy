@@ -1,4 +1,4 @@
-package com.xucong.springstudy.business.dao.base;
+package com.xucong.springstudy.base.dao;
 
 import java.io.Serializable;
 import java.lang.reflect.ParameterizedType;

@@ -13,5 +13,15 @@
 			<artifactId>SpringStudy-domain</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
+		<dependency>
+			<groupId>com.xucong</groupId>
+			<artifactId>SpringStudy-base</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+		<dependency>
+			<groupId>com.xucong</groupId>
+			<artifactId>SpringStudy-util</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
 	</dependencies>
 </project>

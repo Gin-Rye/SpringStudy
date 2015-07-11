@@ -36,7 +36,7 @@ public class UserDaoTest extends AbstractTestNGSpringContextTests {
 	
 	@Test
 	public void testFindByName() {
-		String name = "s";
+		String name = "test";
 		User user = userDao.findByName(name);
 		System.out.println(user.getId());
 	}
