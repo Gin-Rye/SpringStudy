@@ -10,6 +10,7 @@
 		<module>SpringStudy-business</module>
 		<module>SpringStudy-util</module>
 		<module>SpringStudy-base</module>
+		<module>SpringStudy-web</module>
 	</modules>
 	<properties>
 		<file.encoding>UTF-8</file.encoding>
