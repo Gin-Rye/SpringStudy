@@ -6,4 +6,11 @@
     <version>0.0.1-SNAPSHOT</version>
   </parent>
   <artifactId>SpringStudy-base</artifactId>
+  <dependencies>
+      <dependency>
+          	<groupId>com.xucong</groupId>
+			<artifactId>SpringStudy-util</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+      </dependency>
+  </dependencies>
 </project>

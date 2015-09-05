@@ -4,6 +4,16 @@
 
 <web-app>
   <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>HelloServlet</servlet-name>
+  	<display-name>HelloServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.xucong.springstudy.web.servlet.HelloServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>HelloServlet</servlet-name>
+  	<url-pattern>/HelloServlet</url-pattern>
+  </servlet-mapping>
   <welcome-file-list>
       <welcome-file>index.jsp</welcome-file>
   </welcome-file-list>

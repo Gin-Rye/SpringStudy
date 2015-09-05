@@ -7,6 +7,9 @@ import java.lang.reflect.Type;
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
 
+import com.xucong.springstudy.base.exception.SystemException;
+import com.xucong.springstudy.util.MessageResourcesUtils;
+
 public abstract class BaseDao<E> {
 
 	@PersistenceContext
@@ -23,7 +26,7 @@ public abstract class BaseDao<E> {
 				if (type instanceof Class) {
 					entityClass = (Class) type;
 				} else {
-					entityClass = null;
+					throw new SystemException(MessageResourcesUtils.getMessage("daoGenericType"));
 				}
 				break;
 			} else {
